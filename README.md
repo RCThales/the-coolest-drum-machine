@@ -53,7 +53,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ##  Icon provider
 
-[Taiko icon](https://icons8.com/icon/lzobWf7fKN_V/ogre)
+[icon](https://icons8.com/icon/lzobWf7fKN_V/ogre)
 
 ---
 
