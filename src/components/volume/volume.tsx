@@ -6,7 +6,9 @@ import { setTextScreen } from "../../stores/slices/textScreen";
 
 const Volume = () => {
   const volumeRef = useRef<HTMLInputElement>(null);
-  const currentVolume = useSelector((state) => state?.volume?.volume);
+  const currentVolume = useSelector(
+    (state: RootState) => state?.volume?.volume
+  );
   const dispatch = useDispatch();
 
   const changeVolume = () => {
