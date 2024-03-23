@@ -1,0 +1,40 @@
+/* OPTIONS*/
+
+.taiko-display {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #333;
+  padding: 10px;
+  border: 2px solid #501e0536;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+details {
+  margin: 10px 0;
+  width: 80%;
+  height: 80%;
+}
+
+summary {
+  font-size: 2.5rem;
+  padding: 10px;
+  color: #333;
+  cursor: pointer;
+  transition: all ease 0.05s;
+}
+
+summary:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+  details {
+    width: 95%;
+  }
+}
