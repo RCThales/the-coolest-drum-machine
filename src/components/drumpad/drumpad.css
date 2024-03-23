@@ -1,0 +1,79 @@
+.drum-pad {
+  background-color: #8b4513;
+  color: white;
+  min-width: 100px;
+  min-height: 60px;
+  margin: 15px;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+  position: relative;
+  cursor: pointer;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.drum-pad-wrapper {
+  position: relative;
+  transition: all ease-out 0.05s;
+}
+
+.drum-pad:before,
+.drum-pad:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  width: 105%;
+  height: 12px;
+  background-color: #573512;
+  border-radius: 5px;
+}
+
+.drum-pad:after {
+  bottom: -12px;
+}
+
+.oni {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+#S {
+  padding: 30px 55px;
+}
+
+.drum-pad-wrapper:hover {
+  transform: translateY(-4px);
+}
+
+.drum-pad-wrapper:active {
+  transform: scaleY(0.9) translateY(7px);
+}
+
+.active {
+  transform: scaleY(0.9) translateY(7px);
+}
+
+@media screen and (max-width: 700px) {
+  .drum-pad {
+    min-width: 60px;
+    max-width: 80px;
+    margin: 15px;
+  }
+
+  .oni {
+    font-size: 60px;
+  }
+
+  #S {
+    padding: 25px 35px;
+  }
+}
