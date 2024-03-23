@@ -1,7 +1,7 @@
 # The Coolest Drum Machine
 
 <div align="center">
-    <img src="https://img.icons8.com/external-justicon-flat-justicon/64/external-drum-korea-justicon-flat-justicon.png" alt="Light Bulb Icon" width="80" height="80">
+    <img src="https://img.icons8.com/emoji/96/ogre.png" alt="Light Bulb Icon" width="80" height="80">
     <h2>The Coolest Drum Machine</h2>
     <p>Play some japanese TAIKO drums for fun! 🥁</p>
 </div>
@@ -53,7 +53,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ##  Icon provider
 
-[Taiko icon](https://icons8.com/icon/34DoxB5Fslny/drum)
+[icon](https://icons8.com/icon/lzobWf7fKN_V/ogre)
 
 ---
 
