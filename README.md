@@ -3,7 +3,7 @@
 <div align="center">
     <img src="https://img.icons8.com/emoji/96/ogre.png" alt="Light Bulb Icon" width="80" height="80">
     <h2>The Coolest Drum Machine</h2>
-    <p>Play some japanese TAIKO drums for fun! 🥁</p>
+    <p>Play some japanese INSTRUMENTSs for fun! 🥁</p>
 </div>
 
 
@@ -33,7 +33,7 @@ This will start the Vite server, typically available at `http://localhost:3000`.
 
 ## Working DEMO  
 
-*SOON*
+*[DEMO](https://coolestdrummachine-fcc.netlify.app)*
 
 ## A Sneak Peek
 
