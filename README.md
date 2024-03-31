@@ -57,4 +57,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Enjoy using the Random Quotes Generator and stay inspired! ✨
+Enjoy using the Coolest Drum Machine! ✨
